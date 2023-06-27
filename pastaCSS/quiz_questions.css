@@ -1,0 +1,253 @@
+/*body{
+    background-image: url(image2.png);
+    background-size: cover;
+    background-color: darkslategrey;
+}*/
+header{
+    background-color: white;
+    padding: 2em;
+    position:fixed;
+    right: 0;
+    border-radius: 5px;
+}
+
+.questoes-select{
+    background-image: url(../img/image3.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.questoes-microfone{
+    background-image: url(../img/image2.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.questoes-mais-hard{
+    background-image: url(../img/image1.png);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+
+.t-pergunta{
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    width: 60vw;
+    font-size: 4vh;
+    margin-top: 2% ;
+    margin-left: 1em ;
+    max-width: 100%;
+    min-height: 100%
+}
+
+.div-pergunta{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    margin-bottom: 2em;
+    margin-top: 4em;
+    height: 35em;
+    max-width: 100%;
+    min-height: 100%
+}
+
+#id-img{
+    margin-top: 7%;
+}
+
+#img{
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    position: relative;
+    min-height: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+#p-id-questao{
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    width: 25vw;
+    font-size: 4vh;
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 5vh;
+}
+
+.opcao{
+    width: 15vw;
+    height: 7vh;
+    font-size: 3vh;
+
+}
+
+.opcoes-questao{
+    margin-bottom: 7em;
+}
+
+.op-1{
+    background-color: gray;
+}
+
+.op-2{
+    background-color: #FAFF00;;
+}
+
+.op-3{
+    background-color: #00FFFF;
+}
+
+.op-4{
+    background-color: #FF00D6;
+}
+
+.enviar-questao{
+    margin-left: 85%;
+    background-color: rgb(246, 6, 6);
+    height: 5vh;
+    width: 8vw;
+}
+
+.container-resultado{
+    justify-content: space-around;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    height: 40vh;
+    width: 60vw;
+    margin: 15% auto;
+}
+
+.questoes-select{
+    margin-bottom: 2em;
+}
+
+.div-resultado{
+    padding-top: 4% ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.parabuains{
+    color: #FAFF00;
+    font-size: 4vh;
+}
+
+.p-pontuacao{
+    color: green;
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+
+.h2-confirm{
+    color: rgb(246, 6, 6);;
+}
+
+.restart-button{
+    margin: 0 auto;
+    background: #FAFF00;
+    color: #950EFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 12vw;
+    height: 5vh;
+    font-size: 1.4em ;
+}
+
+.b-microfone{
+    height: 15vh;
+    width: 9vw;
+    border-radius: 50%;
+    background-image: url(../img/micro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: white;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5%;
+}
+
+.div-b-img{
+    display: flex;
+    margin: 5em 0;
+}
+
+.div-butoes-1{
+    margin-right: 3em ;
+}
+
+.div-butoes-2{
+    margin-right: 3em;
+}
+
+.div-butoes-3{
+    margin-right: 3em;
+}
+
+.div-butoes-4{
+    margin-right: 3em;
+}
+
+#b-img-1{
+    background-image: url(../img/Manaus.jpeg);
+    background-size: cover;
+    height: 30vh;
+    width: 15vw;
+}
+
+#b-img-2{
+    background-image: url(../img/Cairo.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 15vw;
+}
+
+#b-img-3{
+    background-image: url(../img/Veneza.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 15vw;
+}
+
+#b-img-4{
+    background-image: url(../img/BA1.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 15vw;
+}
+
+#b-img-5{
+    background-image: url(../img/LA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 15vw;
+}
+
+#b-img-6{
+    background-image: url(../img/Moscow.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 15vw;
+}
+
+#b-img-7{
+    background-image: url(../img/RJ.jpg);
+    background-size: cover;
+    height: 30vh;
+    width: 15vw;
+}
+
+#b-img-8{
+    background-image: url(../img/Meca.png);
+    background-size: cover;
+    height: 30vh;
+    width: 15vw;
+}

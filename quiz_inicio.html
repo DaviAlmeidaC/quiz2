@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pastaCSS/quiz_inicio.css">
+    <link rel="stylesheet" href="pastaCSS/quiz_questions.css">
+    <link rel="stylesheet" href="">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <span>certos: <span class="certos">AA</span></span>
+    </header>
+        <div class="container-inicio">
+            <h1 class="titulo">Welcome to the cities quiz! </h1>
+            <p class="p-inicio">Want to start?</p>
+            <button class="start-quiz">START</button>
+        </div> 
+
+        <div class="questions hide">
+            <div class="questoes-select">
+                <h1 class="t-pergunta">Q.1-5 Select the correct option...</h1>
+            <div class="div-pergunta" id="">
+                <div id="id-img">
+                     <img id="img" src="img/Veneza.jpg" alt="">
+                </div>
+        
+                <p id="p-id-questao">Q.1 What city is this?</p>
+        
+                <div class="opcoes-questao" id="pergunta-1">
+                    <button class="opcao op-1" id="q-1-1"> Florenza </button> <button class=" opcao op-2" id="q-1-2"> New York </button>
+                    <button class="opcao op-3" id="q-1-3"> Manaus   </button> <button onclick="contagem()" class=" opcao op-4" id="q-1-4"> Veneza </button>
+                </div>
+            </div>
+
+            <div class="div-pergunta">
+                <div id="id-img">
+                     <img id="img" src="img/Meca.png" alt="">
+                </div>
+        
+                <p id="p-id-questao">Q.2 What city is this?</p>
+        
+                <div class="opcoes-questao">    
+                    <button class="opcao op-1" id="q-2-1"> Jerusalém </button> <button class=" opcao op-2" id="q-2-2"> Meca </button>
+                    <button class="opcao op-3" id="q-2-3"> Manaus   </button> <button class=" opcao op-4" id="q-2-4"> Rio de Janeiro </button>
+                </div>
+            </div>
+
+            <div class="div-pergunta">
+                <div id="id-img">
+                     <img id="img" src="img/Londres.jpg" alt="">
+                </div>
+        
+                <p id="p-id-questao">Q.3 What city is this?</p>
+        
+                <div class="opcoes-questao">
+                    <button class="opcao op-1" id="q-3-1"> Veneza </button> <button class="opcao op-2" id="q-3-2"> Londres </button>
+                    <button class="opcao op-3" id="q-3-3"> Seattle</button> <button class="opcao op-4" id="q-3-4"> Belém </button>
+                </div>
+            </div>
+
+            <div class="div-pergunta">
+                <div id="id-img">
+                     <img id="img" src="img/LA.jpg" alt="">
+                </div>
+        
+                <p id="p-id-questao">Q.4 What city is this?</p>
+        
+                <div class="opcoes-questao">
+                    <button class="op-1 opcao" id="q-4-1"> Los Santos </button> <button class="op-2 opcao" id="q-4-2"> Itacoatiara </button>
+                    <button class="op-3 opcao" id="q-4-3"> Los Angeles </button> <button class="op-4 opcao" id="q-4-4"> Caribe </button>
+                </div>
+            </div>
+
+            <div class="div-pergunta">
+                <div id="id-img">
+                     <img id="img" src="img/Diamantina.jpg" alt="">
+                </div>
+        
+                <p id="p-id-questao">Q.5 What city is this?</p>
+        
+                <div class="opcoes-questao">
+                    <button class="op-1 opcao" id="q-5-1"> Diamantina </button> <button class="op-2 opcao" id="q-5-2"> Belo Horizonte </button>
+                    <button class="op-3 opcao" id="q-5-3"> Vila Rica</button> <button class=" op-4 opcao" id="q-5-4"> Ouro Preto </button>
+                </div>
+            </div>
+            </div>
+            
+            <div class="questoes-microfone">
+                <h1 class="t-pergunta">Q.6-10 Say the name of the city</h1>
+                <div class="div-pergunta">
+                    <div id="id-img">
+                         <img id="img" src="img/Cairo.jpg" alt="">
+                    </div>
+            
+                    <p id="p-id-questao">Q.6 What city is this?</p>
+            
+                    <div class="opcoes-questao">
+                        <button class="b-microfone"></button>
+                    </div>
+                </div>
+
+                <div class="div-pergunta">
+                    <div id="id-img">
+                         <img id="img" src="img/Moscow.jpg" alt="">
+                    </div>
+            
+                    <p id="p-id-questao">Q.7 What city is this?</p>
+            
+                    <div class="opcoes-questao">
+                        <button class="b-microfone"></button>
+                    </div>
+                </div>
+
+                <div class="div-pergunta">
+                    <div id="id-img">
+                         <img id="img" src="img/Shangai.jpg" alt="">
+                    </div>
+            
+                    <p id="p-id-questao">Q.8 What city is this?</p>
+            
+                    <div class="opcoes-questao">
+                        <button class="b-microfone"></button>
+                    </div>
+                </div>
+
+                <div class="div-pergunta">
+                    <div id="id-img">
+                         <img id="img" src="img/SP.jpg" alt="">
+                    </div>
+            
+                    <p id="p-id-questao">Q.9 What city is this?</p>
+            
+                    <div class="opcoes-questao">
+                        <button class="b-microfone"></button>
+                    </div>
+                </div>
+
+                <div class="div-pergunta">
+                    <div id="id-img">
+                         <img id="img" src="img/BA1.jpg" alt="">
+                    </div>
+            
+                    <p id="p-id-questao">Q.10 What city is this?</p>
+            
+                    <div class="opcoes-questao">
+                        <button class="b-microfone"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="questoes-mais-hard">
+                <h1 class="t-pergunta">Q11-15 Select the image </h1>
+                <div class="div-pergunta">
+
+                    <p id="p-id-questao">Q.11 Manaus</p>
+            
+                    <div class="div-b-img opcoes-questao">
+                       <div class="div-butoes-1"><button class="op-1 opcao " id="b-img-1"></button></div> <div class="div-butoes-2"><button class="op-2 opcao" id="b-img-2"></button></div>
+                        <div class="div-butoes-3"><button class="op-3 opcao " id="b-img-3"></button></div> <div class="div-butoes-4"><button class="op-4 opcao" id="b-img-4"></button></div>
+                    </div>
+                </div>
+
+                <div class="div-pergunta">
+                    
+                    <p id="p-id-questao">Q.12 Rio de Janeiro</p>
+            
+                    <div class="div-b-img opcoes-questao">
+                       <div class="div-butoes-1"><button class="op-1 opcao " id="b-img-5"></button></div> <div class="div-butoes-2"><button class="op-2 opcao" id="b-img-6"></button></div>
+                        <div class="div-butoes-3"><button class="op-3 opcao " id="b-img-7"></button></div> <div class="div-butoes-4"><button class="op-4 opcao" id="b-img-8"></button></div>
+                    </div>
+                </div>
+
+                <div class="div-pergunta">
+                    
+                    <p id="p-id-questao">Q.13 Rio de Janeiro</p>
+            
+                    <div class="div-b-img opcoes-questao">
+                       <div class="div-butoes-1"><button class="op-1 opcao " id="b-img-5"></button></div> <div class="div-butoes-2"><button class="op-2 opcao" id="b-img-6"></button></div>
+                        <div class="div-butoes-3"><button class="op-3 opcao " id="b-img-7"></button></div> <div class="div-butoes-4"><button class="op-4 opcao" id="b-img-8"></button></div>
+                    </div>
+                </div>
+
+                <div class="div-pergunta">
+                    
+                    <p id="p-id-questao">Q.14 Rio de Janeiro</p>
+            
+                    <div class="div-b-img opcoes-questao">
+                       <div class="div-butoes-1"><button class="op-1 opcao " id="b-img-5"></button></div> <div class="div-butoes-2"><button class="op-2 opcao" id="b-img-6"></button></div>
+                        <div class="div-butoes-3"><button class="op-3 opcao " id="b-img-7"></button></div> <div class="div-butoes-4"><button class="op-4 opcao" id="b-img-8"></button></div>
+                    </div>
+                </div>
+
+                <div class="div-pergunta">
+                    
+                    <p id="p-id-questao">Q.15 Rio de Janeiro</p>
+            
+                    <div class="div-b-img opcoes-questao">
+                       <div class="div-butoes-1"><button class="op-1 opcao " id="b-img-5"></button></div> <div class="div-butoes-2"><button class="op-2 opcao" id="b-img-6"></button></div>
+                        <div class="div-butoes-3"><button class="op-3 opcao " id="b-img-7"></button></div> <div class="div-butoes-4"><button class="op-4 opcao" id="b-img-8"></button></div>
+                    </div>
+                </div>
+                
+            </div>
+    
+            </div>
+           
+        </div>
+        
+        <button class="enviar-questao hide">Enviar</button>
+
+        <div class="container-resultado hide">
+            <div class="div-resultado">
+                <h1>You have completed the cities quiz!</h1>
+                <p class="parabuains">Congratulations</p>
+                <p class="p-pontuacao"></p>
+                <h2 class="h2-confirm">Do you want to start over?</h2>
+                <button class="restart-button hide">Restart</button>
+            </div>
+        </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
